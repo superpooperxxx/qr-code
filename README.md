@@ -21,8 +21,8 @@ Simple demo project to get used to [frontendmentor.io](https://www.frontendmento
 
 ### Links
 
-- [Project code](https://superpooperxxx.github.io/qr-code/)
-- [DEMO](https://github.com/superpooperxxx/qr-code)
+- [Project code](https://github.com/superpooperxxx/qr-code)
+- [DEMO](https://superpooperxxx.github.io/qr-code/)
 
 ## My process
 

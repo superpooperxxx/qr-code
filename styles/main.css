@@ -1,5 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: red;
+  margin: 0;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+.card {
+  width: 320px;
+  padding: 16px 16px 40px;
+  border-radius: 20px;
+  background: #fff;
+}
+.card__qr-code {
+  margin-bottom: 24px;
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+.card__title {
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+  color: hsl(218deg, 44%, 22%);
+}
+.card__text {
+  padding: 0 16px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  color: hsl(220deg, 15%, 55%);
+}
+
+:root {
+  font-family: "Outfit", sans-serif;
+}
+
+.page {
+  background: hsl(212deg, 45%, 89%);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 /*# sourceMappingURL=main.css.map */

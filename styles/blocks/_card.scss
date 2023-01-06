@@ -1,0 +1,40 @@
+@use '../utils/colors' as *;
+
+.card {
+  width: 320px;
+  padding: 16px 16px 40px;
+
+  border-radius: 20px;
+  background: $main;
+
+  &__qr-code {
+    margin-bottom: 24px;
+
+    width: 288px;
+    height: 288px;
+
+    border-radius: 10px;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+
+    color: $color-card-title;
+  }
+
+  &__text {
+    padding: 0 16px;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+
+    color: $color-main-text;
+  }
+}

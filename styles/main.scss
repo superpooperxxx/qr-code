@@ -1,0 +1,19 @@
+@use './utils/reset';
+@use './utils/colors' as *;
+@use './blocks/card';
+
+:root {
+  font-family: 'Outfit', sans-serif;
+}
+
+.page {
+  background: $color-page-background;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
